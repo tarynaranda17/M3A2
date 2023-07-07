@@ -1,0 +1,61 @@
+def hello():
+        name=str(input("enter the name : "))
+        print("hello " + str(name))
+        return
+        hello()
+
+    if_name==('name')
+        print('Thank you for entering your name.')
+        loop=True
+    else(loop+('name'))
+
+    # Step 3: declare two variables for loan and interest, like months below, 
+    # convert them to float, and ask the user to input their values to the screen. 
+    import math
+    Label(window, text = "Annual Interest Rate").grid(row = 1,column = 1, sticky = W)
+    Label(window, text = "Number of Years").grid(row = 2,column = 1, sticky = W)
+    Label(window, text = "Loan Amount").grid(row = 3,column = 1, sticky = W)
+    Label(window, text = "Monthly Payment").grid(row = 4,column = 1, sticky = W)
+    Label(window, text = "Total Payment").grid(row = 5, column = 1, sticky = W)
+
+  ComputePayment = Button(window, text = "Compute Payment",command = self.computePayment).grid( row = 6, column = 2, sticky = E)
+
+months = float(input("How many months will it take to repay your loan? "))
+
+    print (name, "you requested an estimate on a loan for {0:.2f}" .format(loan))
+
+    def computePayment(self):
+                 
+        monthlyPayment = self.getMonthlyPayment(
+        float(self.loanAmountVar.get()),
+        float(self.annualInterestRateVar.get()) / 1200,
+        int(self.numberOfYearsVar.get()))
+ 
+        self.monthlyPaymentVar.set(format(monthlyPayment, '10.2f'))
+        totalPayment = float(self.monthlyPaymentVar.get()) * 12 \
+                                * int(self.numberOfYearsVar.get())
+ 
+        self.totalPaymentVar.set(format(totalPayment, '10.2f'))
+ 
+    def getMonthlyPayment(self, loanAmount, monthlyInterestRate, numberOfYears):
+        monthlyPayment = loanAmount * monthlyInterestRate / (1
+        - 1 / (1 + monthlyInterestRate) ** (numberOfYears * 12))
+        return monthlyPayment;
+        root = Tk()
+    print("*******************************************************************************")
+    print("Here are the rates for simple interest, compound interest, and monthly interest", "\n") 
+    interest_rate = float((interest/12)+1)
+    compound_interest = float(1-((interest/12)+1) ** -months)
+
+
+    # Step 5: print the interest_rate and compound_interest to the display screen
+print('interest_rate+compound_interest')
+
+    monthly_interest = float((interest/12)/ compound_interest)
+    print(monthly_interest, "\n")
+    payments = float(loan * monthly_interest)
+
+
+    # Step 6: write a print statement that displays the monthly payments to two decimal points
+    # Tip: use the 0:.2f format from an earlier example, only for the payments
+
